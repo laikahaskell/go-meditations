@@ -1,9 +1,9 @@
 # go-meditations
 A Go program that outputs a random passage from the Meditations by Marcus Aurelius. 
-The TUI interface is from [Bubbletea](https://github.com/charmbracelet/bubbletea/tree/master/examples) by Charmbracelet.
+The TUI interface is from [Bubbletea](https://github.com/charmbracelet/bubbletea/) by Charmbracelet.
 
 ## Usage and Dependencies
-A `go.mod` file is provided with all used packages. Run `go run main.go`.
+A `go.mod` file is provided with all used packages. Run `go run main.go` or compile with `go build` and run the executable (`medi`).
 
 ## About
 
