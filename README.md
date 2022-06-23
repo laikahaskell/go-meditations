@@ -8,7 +8,7 @@ A `go.mod` file is provided with all used packages. Run `go run main.go`.
 ## About
 
 ### The Code
-The implementation of the Bubbletea model and Bubbles interface are largely borrowed from the [Pager](https://github.com/charmbracelet/bubbletea/blob/master/examples/pager/main.go) example from the bubbletea repository, but I added text wrapping.
+The implementation of the Bubbletea model and Bubbles interface are largely borrowed from the [Pager](https://github.com/charmbracelet/bubbletea/blob/master/examples/pager/main.go) example from the bubbletea repository, but I added text wrapping, from [Reflow](https://github.com/muesli/reflow).
 
 ### The Text
 I used the [1944 translation by Arthur Spenser Loat Farquharson](https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus), which is in the public domain. 
