@@ -1,5 +1,6 @@
 # go-meditations
-A Go program that outputs a random passage from the Meditations by Marcus Aurelius. 
+A Go program that outputs a random passage from the Meditations by Marcus Aurelius.<br/>
+![Example](gm-example.png)<br/>
 The TUI interface is from [Bubbletea](https://github.com/charmbracelet/bubbletea/) by Charmbracelet.
 
 ## Usage and Dependencies
