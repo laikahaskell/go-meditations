@@ -110,7 +110,10 @@ func max(a, b int) int {
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	f, _ := os.Open("./meditations.txt")
+	f, err := os.Open("./meditations.txt")
+	if err != nil {
+		print(err)
+	}
 
 	var lines []string
 	scanner := bufio.NewScanner(f)
